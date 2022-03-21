@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 
 	"cloud.google.com/go/logging"
@@ -38,5 +37,5 @@ func main() {
 		log.Fatalf("Failed to close client: %v", err)
 	}
 
-	fmt.Printf("Logged: %v\n", text)
+	//fmt.Printf("Logged: %v\n", text)
 }
