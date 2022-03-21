@@ -1,4 +1,3 @@
-// Sample logging-quickstart writes a log entry to Cloud Logging.
 package main
 
 import (
